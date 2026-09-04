@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boukhmili Adnane — Full-Stack Web Developer</title>
+  <meta name="description" content="Boukhmili Adnane is a Full-Stack Web Developer working with Laravel, PHP, MySQL, React.js, Node.js and modern testing practices.">
+  <meta name="author" content="Boukhmili Adnane">
+  <meta name="theme-color" content="#101218">
+  <meta property="og:title" content="Boukhmili Adnane — Full-Stack Web Developer">
+  <meta property="og:description" content="Full-Stack Web Developer building modern, tested and database-driven web applications.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23151724'/%3E%3Cpath d='M18 18h28v7H26v7h16v7H26v7h20v7H18z' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<header class="header" id="top">
+  <div class="container nav">
+    <a class="brand" href="#home" aria-label="Boukhmili Adnane home">
+      <span class="brand-mark"><img src="assets/adnane-avatar.webp" alt="Adnane Boukhmili" /></span><span class="brand-name">Adnane<span>.</span></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Primary">
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#skills" data-i18n="nav.skills">Skills</a>
+      <a href="#experience" data-i18n="nav.experience">Experience</a>
+      <a href="#projects" data-i18n="nav.projects">Projects</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <div class="lang-switcher" role="group" aria-label="Language">
+        <button data-lang="en" class="active" aria-label="English"><img src="assets/flags-en.svg" alt="" aria-hidden="true"></button>
+        <button data-lang="fr" aria-label="Français"><img src="assets/flags-fr.svg" alt="" aria-hidden="true"></button>
+        <button data-lang="es" aria-label="Español"><img src="assets/flags-es.svg" alt="" aria-hidden="true"></button>
+        <button data-lang="de" aria-label="Deutsch"><img src="assets/flags-de.svg" alt="" aria-hidden="true"></button>
+      </div>
+      <button class="theme-btn" id="themeBtn" type="button" aria-label="Toggle theme">☼</button>
+      <a class="small-cta" href="#contact" data-i18n="nav.letsTalk">Let's talk</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#about" data-i18n="nav.about">About</a><a href="#skills" data-i18n="nav.skills">Skills</a><a href="#experience" data-i18n="nav.experience">Experience</a><a href="#projects" data-i18n="nav.projects">Projects</a><a href="#contact" data-i18n="nav.contact">Contact</a>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero section" id="home">
+  <div class="hero-grid">
+    <div class="hero-copy reveal">
+      <p class="eyebrow"><span class="pulse"></span><span data-i18n="hero.eyebrow">Full-Stack Web Developer · Open to opportunities</span></p>
+      <h1 data-i18n-html="hero.title">I build web applications that are <em>useful, tested, and built to last.</em></h1>
+      <p class="lede" data-i18n="hero.lede">Full-Stack Web Developer with hands-on experience building Laravel, PHP, MySQL, React.js and Node.js applications, with a strong focus on backend development, RESTful APIs and application testing.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#projects" data-i18n="hero.projects">View my projects ↗</a>
+        <button class="btn secondary" id="resumeBtn" type="button"><span data-i18n="hero.resume">Download resume</span> ↓</button>
+      </div>
+      <div class="hero-meta">
+        <span data-i18n="hero.location">Taza, Morocco · Open to relocation</span><span>·</span><a href="mailto:adnaneboukhmiliwork@gmail.com">adnaneboukhmiliwork@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal">
+      <div class="terminal">
+        <div class="terminal-bar"><span></span><span></span><span></span><small>adnane.dev</small></div>
+        <div class="terminal-body">
+          <div class="code-line"><b>01</b><span><i>const</i> developer = {</span></div>
+          <div class="code-line indent"><b>02</b><span>name: <em>"Adnane"</em>,</span></div>
+          <div class="code-line indent"><b>03</b><span>role: <em>"Full-Stack"</em>,</span></div>
+          <div class="code-line indent"><b>04</b><span>backend: [<em>"PHP"</em>, <em>"Laravel"</em>, <em>"Node"</em>],</span></div>
+          <div class="code-line indent"><b>05</b><span>frontend: [<em>"React"</em>, <em>"JavaScript"</em>],</span></div>
+          <div class="code-line indent"><b>06</b><span>quality: [<em>"PHPUnit"</em>, <em>"Jest"</em>, <em>"Cypress"</em>],</span></div>
+          <div class="code-line indent"><b>07</b><span>db: [<em>"MySQL"</em>, <em>"MongoDB"</em>]</span></div>
+          <div class="code-line"><b>08</b><span>};</span></div>
+          <div class="architecture">
+            <span>UI</span><i>→</i><span>API</span><i>→</i><span>Logic</span><i>→</i><span>DB</span>
+          </div>
+          <div class="status"><span class="dot"></span> tests passing · API connected · deployable</div>
+        </div>
+      </div>
+      <div class="float-card card-one"><strong>REST</strong><small>API design</small></div>
+      <div class="float-card card-two"><strong>QA</strong><small>automation</small></div>
+    </div>
+  </div>
+</section>
+
+<section class="proof-strip" aria-label="Profile highlights">
+  <div class="container proof">
+    <div><strong>04</strong><span data-i18n="proof.experience">professional experiences</span></div>
+    <div><strong>04</strong><span data-i18n="proof.projects">projects</span></div>
+    <div><strong>03</strong><span data-i18n="proof.education">education milestones</span></div>
+    <div><strong>12+</strong><span data-i18n="proof.stack">technologies & tools</span></div>
+    <div><strong>04</strong><span data-i18n="proof.languages">portfolio languages</span></div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="container two-col">
+    <div class="section-heading reveal">
+      <p class="kicker" data-i18n="about.kicker">ABOUT ME</p>
+      <h2 data-i18n-html="about.title">From backend logic to <em>clean interfaces.</em></h2>
+    </div>
+    <div class="about-copy reveal">
+      <p data-i18n="about.p1">I’m a Full-Stack Web Developer focused on building database-driven web applications and reliable backend systems.</p>
+      <p data-i18n="about.p2">My experience spans Laravel and PHP backend development, React.js frontend integration, RESTful APIs, MySQL and MongoDB, plus automated testing and debugging workflows.</p>
+      <p data-i18n="about.p3">I enjoy turning requirements into clear features, connecting frontend and backend systems, and validating applications with disciplined testing.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section tinted" id="skills">
+  <div class="container">
+    <div class="section-heading reveal">
+      <p class="kicker" data-i18n="skills.kicker">TECHNICAL STACK</p>
+      <h2 data-i18n-html="skills.title">Tools I use to <em>build and verify.</em></h2>
+      <p data-i18n="skills.intro">A practical stack covering frontend, backend, APIs, databases, testing and delivery.</p>
+    </div>
+    <div class="skills-grid">
+      <article class="skill-card reveal"><span class="num">01</span><h3 data-i18n="skills.frontend">Frontend</h3><div class="chips">
+        <span class="skill-chip"><img src="assets/icons/html5.svg" alt="">HTML5</span><span class="skill-chip"><img src="assets/icons/css3.svg" alt="">CSS3</span><span class="skill-chip"><img src="assets/icons/javascript.svg" alt="">JavaScript</span><span class="skill-chip"><img src="assets/icons/react.svg" alt="">React.js</span>
+      </div></article>
+      <article class="skill-card reveal"><span class="num">02</span><h3 data-i18n="skills.backend">Backend</h3><div class="chips">
+        <span class="skill-chip"><img src="assets/icons/php.svg" alt="">PHP</span><span class="skill-chip"><img src="assets/icons/laravel.svg" alt="">Laravel</span><span class="skill-chip"><img src="assets/icons/nodejs.svg" alt="">Node.js</span>
+      </div></article>
+      <article class="skill-card reveal"><span class="num">03</span><h3 data-i18n="skills.data">Data & APIs</h3><div class="chips">
+        <span class="skill-chip"><img src="assets/icons/mysql.svg" alt="">MySQL</span><span class="skill-chip"><img src="assets/icons/mongodb.svg" alt="">MongoDB</span><span class="skill-chip"><img src="assets/icons/api.svg" alt="">RESTful APIs</span><span class="skill-chip"><img src="assets/icons/postman.svg" alt="">Postman</span>
+      </div></article>
+      <article class="skill-card reveal"><span class="num">04</span><h3 data-i18n="skills.testing">Testing</h3><div class="chips">
+        <span class="skill-chip"><img src="assets/icons/phpunit.svg" alt="">PHPUnit</span><span class="skill-chip"><img src="assets/icons/jest.svg" alt="">Jest</span><span class="skill-chip"><img src="assets/icons/rtl.svg" alt="">React Testing Library</span><span class="skill-chip"><img src="assets/icons/cypress.svg" alt="">Cypress</span>
+      </div></article>
+      <article class="skill-card reveal"><span class="num">05</span><h3 data-i18n="skills.tools">Tools & delivery</h3><div class="chips">
+        <span class="skill-chip"><img src="assets/icons/git.svg" alt="">Git</span><span class="skill-chip"><img src="assets/icons/github.svg" alt="">GitHub</span><span class="skill-chip"><img src="assets/icons/docker.svg" alt="">Docker</span><span class="skill-chip"><img src="assets/icons/uml.svg" alt="">UML</span><span class="skill-chip"><img src="assets/icons/wordpress.svg" alt="">WordPress</span>
+      </div></article>
+      <article class="skill-card reveal"><span class="num">06</span><h3 data-i18n="skills.methods">Methodologies</h3><div class="chips">
+        <span class="skill-chip"><img src="assets/icons/agile.svg" alt="">Agile</span><span class="skill-chip"><img src="assets/icons/scrum.svg" alt="">Scrum</span>
+      </div></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="experience">
+  <div class="container">
+    <div class="section-heading reveal">
+      <p class="kicker" data-i18n="exp.kicker">EXPERIENCE</p>
+      <h2 data-i18n-html="exp.title">Building, testing, and <em>debugging real systems.</em></h2>
+    </div>
+    <div class="timeline">
+      <article class="timeline-item reveal"><div class="time">10/2024 — 06/2026</div><div class="marker"></div><div class="timeline-content"><p class="role">Website Tester · Intern</p><h3>Rakops Solutions</h3><p data-i18n="exp.rakops">Designed automated test suites from scratch for Laravel and React.js applications, covering functional, E2E, regression and edge-case scenarios. Tested APIs, authentication, authorization, forms, databases and security with Postman and OWASP ZAP.</p><div class="mini-tags"><span>PHPUnit</span><span>Jest</span><span>Cypress</span><span>GitLab</span></div></div></article>
+      <article class="timeline-item reveal"><div class="time">07/2025 — 08/2025</div><div class="marker"></div><div class="timeline-content"><p class="role">Web Developer · Part-time Project</p><h3>Freelance</h3><p data-i18n="exp.freelance">Developed a company profile web application with Laravel and React.js, including backend functionality, frontend integration and a content management dashboard.</p><div class="mini-tags"><span>Laravel</span><span>React.js</span><span>CMS</span></div></div></article>
+      <article class="timeline-item reveal"><div class="time">11/2023 — 02/2024</div><div class="marker"></div><div class="timeline-content"><p class="role">Back-End Developer · Intern</p><h3>Digital Partnership Group</h3><p data-i18n="exp.dpg">Developed backend features with Laravel, PHP, MySQL and Node.js, implementing server-side functionality and database operations according to project requirements.</p><div class="mini-tags"><span>PHP</span><span>Laravel</span><span>MySQL</span><span>Node.js</span></div></div></article>
+      <article class="timeline-item reveal"><div class="time">12/2022 — 01/2023</div><div class="marker"></div><div class="timeline-content"><p class="role">Full-Stack Web Developer · Intern</p><h3>National Agency for Water and Forests</h3><p data-i18n="exp.anef">Developed a full-stack web application for managing payment slips, with features for creating, managing and tracking payment-slip records and database-driven user interfaces.</p><div class="mini-tags"><span>Full-stack</span><span>Database</span><span>UI</span></div></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="section projects-section" id="projects">
+  <div class="container">
+    <div class="section-heading split reveal">
+      <div><p class="kicker" data-i18n="projects.kicker">SELECTED BUILDS</p><h2 data-i18n-html="projects.title">Work that connects <em>features to systems.</em></h2></div>
+      <p data-i18n="projects.intro">These are portfolio-ready presentations of work explicitly supported by my experience. No invented metrics or technologies.</p>
+    </div>
+    <div class="project-list">
+      <article class="project reveal">
+        <div class="project-visual visual-company"><div class="browser"><div class="browser-bar"><i></i><i></i><i></i><span>company-profile.local</span></div><div class="mock-page"><div class="mock-nav"></div><div class="mock-hero"></div><div class="mock-lines"></div><div class="mock-lines short"></div></div></div></div>
+        <div class="project-copy"><span class="project-index">01 / WEB APP</span><h3 data-i18n="proj.company.title">Company Profile Web Application</h3><p data-i18n="proj.company.desc">A company profile web application built with Laravel and React.js, combining backend functionality with frontend integration and a content management dashboard.</p><div class="project-detail"><b data-i18n="proj.role">Contribution</b><span data-i18n="proj.company.contribution">Backend functionality, frontend integration, content management and feature testing.</span></div><div class="chips"><span>Laravel</span><span>React.js</span></div></div>
+      </article>
+      <article class="project reverse reveal">
+        <div class="project-visual visual-payments"><div class="ledger"><div class="ledger-head"><span data-i18n="ui.records">PAYMENT RECORDS</span><b>+</b></div><div class="ledger-row"><span>#00421</span><span>Managed</span><strong>01</strong></div><div class="ledger-row"><span>#00422</span><span>Tracked</span><strong>02</strong></div><div class="ledger-row"><span>#00423</span><span>Created</span><strong>03</strong></div><div class="ledger-row"><span>#00424</span><span>Managed</span><strong>04</strong></div></div></div>
+        <div class="project-copy"><span class="project-index">02 / FULL-STACK</span><h3 data-i18n="proj.payments.title">Payment Slip Management Application</h3><p data-i18n="proj.payments.desc">A full-stack web application developed for managing payment slips, including creation, management and tracking of payment-slip records.</p><div class="project-detail"><b data-i18n="proj.role">Contribution</b><span data-i18n="proj.payments.contribution">Application functionality, database-driven features and user interfaces aligned with organizational requirements.</span></div><div class="chips"><span>Full-stack</span><span>Database</span></div></div>
+      </article>
+      <article class="project reverse reveal">
+        <div class="project-visual visual-monitoring">
+          <div class="monitor-board">
+            <div class="monitor-top"><span data-i18n="ui.audit">AUDIT & MONITORING</span><b>LIVE</b></div>
+            <div class="monitor-score"><strong>30+</strong><span data-i18n="ui.monitorTools">monitoring tools</span></div>
+            <div class="monitor-grid">
+              <span>SEO</span><span>Uptime</span><span>Links</span><span>Performance</span>
+              <span>Security</span><span>Content</span><span>Health</span><span>Alerts</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-copy"><span class="project-index">03 / MONITORING PLATFORM</span><h3 data-i18n="proj.monitoring.title">Website Audit & Monitoring Platform</h3><p data-i18n="proj.monitoring.desc">An audit and monitoring platform that continuously checks websites through a broad set of tools, inspired by the workflow of products such as Semrush.</p><div class="project-detail"><b data-i18n="proj.role">Contribution</b><span data-i18n="proj.monitoring.contribution">Fixed bugs, created the login system and user roles, wrote PHPUnit feature tests, helped ensure the application worked reliably, and built the monitoring system with around 30 supporting tools.</span></div><div class="chips"><span>PHPUnit</span><span data-i18n="ui.authentication">Authentication</span><span data-i18n="ui.roles">Roles</span><span data-i18n="ui.monitoring">Monitoring</span></div></div>
+      </article>
+      <article class="project reveal">
+        <div class="project-visual visual-testing"><div class="test-console"><div><span class="pass">PASS</span> Authentication</div><div><span class="pass">PASS</span> API validation</div><div><span class="pass">PASS</span> Regression suite</div><div><span class="pass">PASS</span> Edge cases</div><div><span class="pass">PASS</span> E2E workflow</div><div class="console-foot">PHPUnit · Jest · Cypress · Postman</div></div></div>
+        <div class="project-copy"><span class="project-index">04 / QUALITY ENGINEERING</span><h3 data-i18n="proj.testing.title">Automated Testing Suite</h3><p data-i18n="proj.testing.desc">Automated test suites created for Laravel and React.js applications, covering functional, E2E, regression and edge-case scenarios.</p><div class="project-detail"><b data-i18n="proj.role">Contribution</b><span data-i18n="proj.testing.contribution">Test design, API/security validation, bug reproduction, fix verification and ongoing test maintenance.</span></div><div class="chips"><span>PHPUnit</span><span>Jest</span><span>React Testing Library</span><span>Cypress</span></div></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section education">
+  <div class="container two-col">
+    <div class="section-heading reveal"><p class="kicker" data-i18n="edu.kicker">EDUCATION</p><h2 data-i18n-html="edu.title">A foundation in <em>software engineering.</em></h2></div>
+    <div class="edu-list">
+      <article class="edu reveal"><span>2023 — 2024</span><div><h3>National School of Applied Sciences</h3><p data-i18n="edu.ensa">Professional Diploma in Software Engineering and Information Systems · Kenitra, Morocco</p></div></article>
+      <article class="edu reveal"><span>2021 — 2023</span><div><h3>Specialized Institute of Applied Technology</h3><p data-i18n="edu.ofppt">Specialized Technician in Digital Development (Full Stack Development) · Taza, Morocco</p></div></article>
+      <article class="edu reveal"><span>2020 — 2021</span><div><h3>Ali Ben Berri High School</h3><p data-i18n="edu.bac">Baccalaureate in Physical and Chemical Sciences · Taza, Morocco</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="section contact-section" id="contact">
+  <div class="container contact-wrap">
+    <div class="contact-copy reveal"><p class="kicker" data-i18n="contact.kicker">LET'S CONNECT</p><h2 data-i18n-html="contact.title">Have a project or role in mind? <em>Let's talk.</em></h2><p data-i18n="contact.intro">I’m open to Full-Stack and Backend Developer opportunities. Send a message and I’ll get back to you.</p><div class="contact-links"><a href="mailto:adnaneboukhmiliwork@gmail.com">adnaneboukhmiliwork@gmail.com</a><a href="tel:+212631023160">+212 6-31-02-31-60</a><a href="https://linkedin.com/in/boukhmili" target="_blank" rel="noreferrer">linkedin.com/in/boukhmili ↗</a></div></div>
+    <form class="contact-form reveal" id="contactForm" novalidate>
+      <label><span data-i18n="form.name">Name</span><input name="name" required autocomplete="name" placeholder="Your name" data-i18n-placeholder="form.namePh"></label>
+      <label><span data-i18n="form.email">Email</span><input name="email" type="email" required autocomplete="email" placeholder="you@example.com" data-i18n-placeholder="form.emailPh"></label>
+      <label><span data-i18n="form.subject">Subject</span><input name="subject" required placeholder="How can I help?" data-i18n-placeholder="form.subjectPh"></label>
+      <label><span data-i18n="form.message">Message</span><textarea name="message" rows="6" required placeholder="Tell me a little about your project or opportunity..." data-i18n-placeholder="form.messagePh"></textarea></label>
+      <div class="form-bottom"><button class="btn primary" type="submit" id="submitBtn" data-i18n="form.send">Send message ↗</button><p id="formStatus" role="status" aria-live="polite"></p></div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer"><div class="container"><span>© <span id="year"></span> Boukhmili Adnane</span><a href="#home" data-i18n="footer.top">Back to top ↑</a></div></footer>
+
+<dialog class="resume-dialog" id="resumeDialog">
+  <div class="dialog-card"><button class="dialog-close" id="resumeClose" aria-label="Close">×</button><p class="kicker" data-i18n="resume.kicker">RESUME</p><h2 data-i18n="resume.title">Choose a language</h2><p data-i18n="resume.intro">English is available now. Add the other PDF files to the resume folder when ready.</p>
+    <div class="resume-options">
+      <a href="resume/resume-en.pdf" download><b><img class="resume-flag" src="assets/flags-en.svg" alt=""> English</b><span>resume-en.pdf</span></a>
+      <a href="resume/resume-fr.pdf" class="future" data-future><b><img class="resume-flag" src="assets/flags-fr.svg" alt=""> French</b><small>add PDF</small></a>
+      <a href="resume/resume-es.pdf" class="future" data-future><b><img class="resume-flag" src="assets/flags-es.svg" alt=""> Spanish</b><small>add PDF</small></a>
+      <a href="resume/resume-de.pdf" class="future" data-future><b><img class="resume-flag" src="assets/flags-de.svg" alt=""> German</b><small>add PDF</small></a>
+    </div>
+  </div>
+</dialog>
+<script src="script.js"></script>
+</body>
+</html>
